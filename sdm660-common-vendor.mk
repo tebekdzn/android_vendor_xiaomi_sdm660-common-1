@@ -76,6 +76,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm660-common/proprietary/product/lib/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.data.slm@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.1.so \
+    vendor/xiaomi/sdm660-common/proprietary/vendor/lib/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayconfig.qti.so \
+    vendor/xiaomi/sdm660-common/proprietary/vendor/lib/vendor.display.config@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@2.0.so \
+    vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.qti.so \
     vendor/xiaomi/sdm660-common/proprietary/product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/product/lib/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.sigma_miracast@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/system_ext/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.ant@1.0.so \
@@ -84,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm660-common/proprietary/product/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.data.slm@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.1.so \
+    vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/vendor.display.config@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@2.0.so \
     vendor/xiaomi/sdm660-common/proprietary/system_ext/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/product/lib64/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.sigma_miracast@1.0.so \
@@ -696,7 +700,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/vendor.qti.gnss@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@4.0.so \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
-    vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
@@ -757,6 +760,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm660-common/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
     vendor/xiaomi/sdm660-common/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
     vendor/xiaomi/sdm660-common/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
+
 
 PRODUCT_PACKAGES += \
     libgpustats \
